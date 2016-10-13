@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/chart.js"></script>
+      <script src="js/main.js"></script>
+  </head>
+  <body>
+    <button id="load-button" type="button">Go!</button>
+    <div>
+      <canvas id="ga-chart" width="1200" height="700"></canvas>
+    </div>
+    <script>
+    $( "#load-button" ).click(function() {
+      loadGraph();
+    });
+    </script>
+  </body>
+</html>
